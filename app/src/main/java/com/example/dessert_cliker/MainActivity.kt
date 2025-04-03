@@ -121,9 +121,7 @@ fun determineDessertToShow(
     return dessertToShow
 }
 
-/**
- * Share desserts sold information using ACTION_SEND intent
- */
+
 private fun shareSoldDessertsInformation(intentContext: Context, dessertsSold: Int, revenue: Int) {
     val sendIntent = Intent().apply {
         action = Intent.ACTION_SEND

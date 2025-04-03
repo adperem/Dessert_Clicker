@@ -3,9 +3,7 @@ package com.example.dessert_cliker.data
 import com.example.dessert_cliker.R
 import com.example.dessert_cliker.model.Dessert
 
-/**
- * [Datasource] generates a list of [Dessert]
- */
+
 object Datasource {
     val dessertList = listOf(
         Dessert(R.drawable.cupcake, 5, 0),
